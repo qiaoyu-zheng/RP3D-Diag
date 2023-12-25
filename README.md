@@ -5,7 +5,7 @@ The official codes for paper "Large-scale Long-tailed Disease Diagnosis on Radio
 
 In this paper, we build up a multi-modal multi-anatomy, 
 ## Dataset
-The images used in our dataset can be downloaded from [baiduyun](https://pan.baidu.com/s/1E_uSoCLm5H66a7KkpRfi1g?pwd=urfg)
+The images used in our dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1E_uSoCLm5H66a7KkpRfi1g?pwd=urfg)
 
 The label csv files can be found in [HuggingFace]().
 
