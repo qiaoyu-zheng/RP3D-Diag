@@ -1,7 +1,7 @@
 # RadNet
 The official codes for paper "Large-scale Long-tailed Disease Diagnosis on Radiology"
 
-[Arxiv Version]
+[ArXiv Version]
 
 In this paper, we build up a multi-modal multi-anatomy, 
 ## Dataset
