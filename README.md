@@ -9,15 +9,18 @@ The images used in our dataset can be downloaded from [baiduyun](https://pan.bai
 
 The label csv files can be found in [HuggingFace]().
 
-## Model Checkpoint.
+## Model Checkpoint
 The model checkpoint can be found in [HuggingFace]().
 
 It can be easily loaded through:
 ```
 Model
 ```
+## Training
 
-## Acknowledgment:
+## Evaluation
+
+## Acknowledgment
 We sincerely thank all the contributors who uploaded the relevant data in our dataset online. We appreciate their willingness to make these valuable cases publicly available.
 
 ## Contact
