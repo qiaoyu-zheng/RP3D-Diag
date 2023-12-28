@@ -1,4 +1,4 @@
-# RP3D-DiagModel
+# RP3D-Diag
 
 The official codes for paper "Large-scale Long-tailed Disease Diagnosis on Radiology"
 
