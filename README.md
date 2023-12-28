@@ -1,13 +1,13 @@
-# RadNet
+# RP3D-DiagModel
 The official codes for paper "Large-scale Long-tailed Disease Diagnosis on Radiology"
 
 [ArXiv Version](https://arxiv.org/abs/2312.16151)
 
-In this paper, we build up a multi-modal multi-anatomy, 
+In this paper, we build up an academically accessible, large-scale diagnostic dataset, present a knowledge enhanced model architecture that enables to process arbitrary number of input scans from various imaging modalities, and initialize a new benchmark for multi-modal multi-anatomy long-tailed diagnosis. Our method shows superior results on it. Additionally, our final model serves as a pre-trained model, and can be finetuned to benefit diagnosis on various external datasets
 ## Dataset
 The images used in our dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1E_uSoCLm5H66a7KkpRfi1g?pwd=urfg)
 
-The label csv files can be found in [HuggingFace](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS).
+The train/test split strategy, label csv files and model checkpoints can be found in [HuggingFace](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS).
 
 ## Model Checkpoint
 The model checkpoint can be found in [HuggingFace] (Uploading).
