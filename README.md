@@ -71,6 +71,23 @@ src
 1. Modify train.sh (SAFETENSOR), the path should be the path for pytorch.model.bin, Modify CHECKPOINT to "None".
 2. Run in terminal: `bash train.sh`
 
+## Benchmark
+
+**Classification results on Disorders and ICD-10-CM levels.** In this table **Fusion Module** and **Knowledge Enhancement** strategy are both used. We report the results on Head/Medium/Tail class sets separately.
+
+| Granularity | Class |  AUC  |  AP  |  F1  |  MCC  | R@0.01 | R@0.05 | R@0.1 |
+| :---------: | :----: | :---: | :---: | :---: | :---: | :----: | :----: | :---: |
+|  Disorders  |  Head  | 94.24 | 15.13 | 25.68 | 26.71 | 37.06 | 66.55 | 81.37 |
+|  Disorders  | Medium | 94.69 | 12.38 | 20.64 | 24.07 | 31.52 | 65.34 | 78.73 |
+|  Disorders  |  Tail  | 90.64 | 9.25 | 9.89 | 14.38 | 10.98 | 27.98 | 43.53 |
+|  ICD-10-CM  |  Head  | 90.89 | 14.37 | 22.67 | 24.29 | 26.11 | 53.82 | 69.16 |
+|  ICD-10-CM  | Medium | 91.67 | 9.56 | 18.32 | 20.77 | 25.68 | 52.85 | 66.63 |
+|  ICD-10-CM  |  Tail  | 86.55 | 4.81 | 8.69 | 12.74 |  8.86  | 22.75 | 37.97 |
+
+ROC curves on Disorders and ICD-10-CM, including head/medium/tail parts respectively. The shadow in the figure shown the 95\% CI~(Confidence interval) and FM, KE are short for Fusion Module and Knowledge Enhancement.
+
+`<img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/ROCs.png"/>`
+
 ## Acknowledgment
 
 We sincerely thank all the contributors who uploaded the relevant data in our dataset online. We appreciate their willingness to make these valuable cases publicly available.
