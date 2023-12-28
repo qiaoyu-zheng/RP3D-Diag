@@ -20,9 +20,11 @@ The architecture of our proposed visual encoder and fusion module, together with
 
 The model checkpoint can also be found in [HuggingFace](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS). (Uploading).
 
-## Training
-
 ## Evaluation
+
+
+
+## Training
 
 ## Acknowledgment
 We sincerely thank all the contributors who uploaded the relevant data in our dataset online. We appreciate their willingness to make these valuable cases publicly available.
