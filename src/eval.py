@@ -14,7 +14,7 @@ from transformers import Trainer, TrainerCallback
 from transformers.trainer_utils import get_last_checkpoint, is_main_process
 # import evaluate
 from sklearn import metrics
-from sklearn.metrics import roc_curve, roc_auc_score, average_precision_score, precision_recall_curve, matthews_corrcoef
+from sklearn.metrics import roc_curve, auc, roc_auc_score, average_precision_score, precision_recall_curve, matthews_corrcoef
 from functools import partial
 import wandb
 import sys
@@ -394,7 +394,7 @@ def main():
         texts = list(label_dict.keys())
     else:
         raise ValueError("Invalid ltype value!")
-    print("Texts: ", texts)
+    # print("Texts: ", texts)
     tokenizer = AutoTokenizer.from_pretrained("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/pretrained")
     encoded = tokenizer(
         texts, 
@@ -410,11 +410,11 @@ def main():
             pretrained_weights = torch.load(safetensor)
             missing, unexpect = model.load_state_dict(pretrained_weights,strict=False)
         elif safetensor.endswith('.safetensors'):
-            missing, unexpect = load_model(model, safetensor, strict=False)
+            missing, unexpect = load_model(model, safetensor, strict=True)
         else:
             raise ValueError("Invalid safetensors!")
-        print(f"Missing: {missing}")
-        print(f"Unexpect: {unexpect}")
+    print(missing)
+    print(unexpect)
     trainer = Trainer(
         model=model,
         train_dataset=train_datasets,
@@ -428,8 +428,7 @@ def main():
     os.environ["WANDB__SERVICE_WAIT"] = "200"
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
     trainer.add_callback(metrics_callback)
-    trainer.train(resume_from_checkpoint=checkpoint)
-    trainer.save_state()
+    
     print(trainer.evaluate())
 
 if __name__ == "__main__":
