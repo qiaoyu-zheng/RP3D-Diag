@@ -13,12 +13,12 @@ The images used in our dataset can be downloaded from [BaiduYun](https://pan.bai
 
 The train/test split strategy and label csv files can be found in [HuggingFace](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS).
 
-## Model Checkpoint
-The model checkpoint can be found in [HuggingFace](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS). (Uploading).
+## Model 
+The architecture of our proposed visual encoder and fusion module, together with the knowledge enhancement strategy. (a) shows the details of the vision encoder. We design two variants to fit in the two main visual backbones, i.e., ResNet and ViT. (b) shows the transformer-based fusion module, enabling case-level information fusion. (c) shows the knowledge enhancement strategy. We first pre-train a text encoder with extra medical knowledge with contrastive learning, i.e., synonyms, descriptions and hierarchy, termed as knowledge encoder and then we view the text embedding as a natural classifier to guide the diagnosis classification.
 
-It can be easily loaded through:
+<img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/RP3D-DiagModel.png"/>
 
-
+The model checkpoint can also be found in [HuggingFace](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS). (Uploading).
 
 ## Training
 
