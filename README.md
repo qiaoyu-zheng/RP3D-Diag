@@ -7,7 +7,7 @@ In this paper, we build up an academically accessible, large-scale diagnostic da
 ## Dataset
 Overview of RP3D-DiagDS. There are **39,026 cases (192,675 scans)** across 7 human anatomy regions and 9 diverse modalities covering **930 ICD-10-CM codes**.
 
-<img src="https://github.com/chaoyi-wu/RadFM/blob/main/Images/RP3D-DiagDS.png"/>
+<img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/RP3D-DiagDS.png"/>
 
 The images used in our dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1E_uSoCLm5H66a7KkpRfi1g?pwd=urfg)
 
