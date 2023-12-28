@@ -1,16 +1,16 @@
 # RadNet
 The official codes for paper "Large-scale Long-tailed Disease Diagnosis on Radiology"
 
-[ArXiv Version]
+[ArXiv Version](https://arxiv.org/abs/2312.16151)
 
 In this paper, we build up a multi-modal multi-anatomy, 
 ## Dataset
 The images used in our dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1E_uSoCLm5H66a7KkpRfi1g?pwd=urfg)
 
-The label csv files can be found in [HuggingFace]().
+The label csv files can be found in [HuggingFace](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS).
 
 ## Model Checkpoint
-The model checkpoint can be found in [HuggingFace]().
+The model checkpoint can be found in [HuggingFace] (Uploading).
 
 It can be easily loaded through:
 ```
