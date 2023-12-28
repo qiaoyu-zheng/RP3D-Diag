@@ -88,6 +88,19 @@ ROC curves on Disorders and ICD-10-CM, including head/medium/tail parts respecti
 
 <img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/ROCs.png"/>
 
+## Comparison
+
+The AUC Score Comparison on Various External Datasets. SOTA denotes the best performance of former works (pointed
+with corresponding reference) on the datasets. Scratch means use our model but train from scratch. Ours means use our checkpoint to fintune.
+
+|   Dataset   | Scratch | Ours | SOTA |
+| :---------: | :-----: | :---: | :---: |
+| VinDr-Mammo |  76.25  | 78.53 | 77.50 |
+|    CXR14    |  79.12  | 83.38 | 82.50 |
+| VinDr-Spine |  87.35  | 87.73 | 88.90 |
+| MosMedData |  71.24  | 75.39 | 68.47 |
+|    ADNI    |  82.40  | 84.21 | 79.34 |
+
 ## Acknowledgment
 
 We sincerely thank all the contributors who uploaded the relevant data in our dataset online. We appreciate their willingness to make these valuable cases publicly available.
