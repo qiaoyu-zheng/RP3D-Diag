@@ -22,7 +22,7 @@ The architecture of our proposed visual encoder and fusion module, together with
 
 <img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/RP3D-DiagModel.png"/>
 
-The model checkpoint can also be found in HuggingFace repository [RP3D-DiagModel](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagModel). (Uploading).
+The model checkpoint can also be found in HuggingFace repository [RP3D-DiagModel](https://huggingface.co/QiaoyuZheng/RP3D-DiagModel). (Uploading).
 
 ## Setup
 
