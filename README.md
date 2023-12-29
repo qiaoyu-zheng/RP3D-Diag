@@ -14,7 +14,7 @@ In this paper, we build up an academically accessible, large-scale diagnostic da
 
 The images used in our dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1E_uSoCLm5H66a7KkpRfi1g?pwd=urfg)
 
-The train/test split strategy and label csv files can be found in [HuggingFace](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS).
+The train/test split strategy and label csv files can be found in HuggingFace repository [RP3D-DiagDS](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS).
 
 ## Model
 
@@ -22,7 +22,7 @@ The architecture of our proposed visual encoder and fusion module, together with
 
 <img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/RP3D-DiagModel.png"/>
 
-The model checkpoint can also be found in [HuggingFace](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS). (Uploading).
+The model checkpoint can also be found in HuggingFace repository [RP3D-DiagModel](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagModel). (Uploading).
 
 ## Setup
 
