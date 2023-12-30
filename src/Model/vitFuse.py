@@ -4,10 +4,6 @@ import torch.nn.functional as F
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
 import sys 
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/MedVision_Multi")
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/MedVision_Multi/Model")
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/MedVision_Multi/Loss")
-
 
 class vitFuse(nn.Module):
     def __init__(self, hid_dim=1024, num_cls=917, ke=False):

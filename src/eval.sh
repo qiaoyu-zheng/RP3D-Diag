@@ -13,7 +13,7 @@ FUSE="late"
 KE=True
 ADAPTER=False
 CHECKPOINT="None"
-SAFETENSOR="/remote-home/share/data200/172.16.11.200/zhengqiaoyu/MedVision/Logout/log10_0_5569_res_art_32_BCE_True_comb_10/output/checkpoint-46650/pytorch_model.bin"
+SAFETENSOR="None"
 
 WORKER=24
 BATCHSIZE=2

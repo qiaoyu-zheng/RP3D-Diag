@@ -1,12 +1,8 @@
 import torch
 from torch import nn
-
 from einops import rearrange, repeat
 from einops.layers.torch import Rearrange
 import sys 
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RadNet_KE")
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RadNet_KE/Model")
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RadNet_KE/Loss")
 from position_encoding import PositionEmbeddingLearned
 
 

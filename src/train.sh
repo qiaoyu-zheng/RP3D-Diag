@@ -1,5 +1,5 @@
-OUTDIR="/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RadNet_KE/Logout/log9_late_5569_res_art_32_BCE_True_KE"
-PORT=28688
+OUTDIR="/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag/src/Logout/LogTest"
+PORT=29405
 
 START=0
 END=5569
@@ -10,17 +10,17 @@ LTYPE="MultiLabel"
 AUGMENT=True
 N_image=6
 FUSE="late"
-KE=True
+KE=False
 ADAPTER=False
-CHECKPOINT="/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RadNet_KE/Logout/log9_late_5569_res_art_32_BCE_True_KE/output/checkpoint-1944"
+CHECKPOINT="None"
 SAFETENSOR="None"
 
-WORKER=24
-BATCHSIZE=8
-LR=3e-5
+WORKER=16
+BATCHSIZE=2
+LR=8e-6
 
-export CUDA_VISIBLE_DEVICES=2,5,6,7
-nohup torchrun --nproc_per_node=4 --master_port $PORT /remote-home/share/data200/172.16.11.200/zhengqiaoyu/RadNet_KE/train.py \
+export CUDA_VISIBLE_DEVICES=7
+nohup torchrun --nproc_per_node=1 --master_port $PORT /remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag/src/train.py \
     --output_dir $OUTDIR/output \
     --num_train_epochs 100 \
     --per_device_train_batch_size $BATCHSIZE \

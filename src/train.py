@@ -9,10 +9,8 @@ from Dataset.dataset import RadNet_Dataset_early, RadNet_Dataset_late
 from Model.modelRadNet import RadNet
 import numpy as np
 import torch
-# from My_Trainer.trainer import Trainer
 from transformers import Trainer, TrainerCallback
 from transformers.trainer_utils import get_last_checkpoint, is_main_process
-# import evaluate
 from sklearn import metrics
 from sklearn.metrics import roc_curve, roc_auc_score, average_precision_score, precision_recall_curve, matthews_corrcoef
 from functools import partial
@@ -25,6 +23,8 @@ from scipy.interpolate import interp1d
 from transformers import AutoModel,BertConfig,AutoTokenizer
 from safetensors.torch import load_model
 import json
+sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag")
+sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag/src")
 
 def set_seed(seed=42):
     random.seed(seed)
@@ -423,7 +423,6 @@ def main():
         data_collator=DataCollator(),
         compute_metrics=partial_compute_metrics,
     )
-    # trainer.integrate_wandb()
     os.environ["WANDB_MODE"] = "offline"
     os.environ["WANDB__SERVICE_WAIT"] = "200"
     os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -433,5 +432,4 @@ def main():
     print(trainer.evaluate())
 
 if __name__ == "__main__":
-    # Path(args.output_dir).mkdir(parents=True, exist_ok=True)
     main()
