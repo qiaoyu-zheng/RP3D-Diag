@@ -49,7 +49,6 @@ src
 |   |    disorder_label_dict.json
 |   |    icd10_label_dict.json
 |   |    xxxCheckpoint
-|   |    |    optimizer.pt
 |   |    |    pytorch.model.bin 
 |   |    |    ......
 ```
