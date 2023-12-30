@@ -23,8 +23,8 @@ from scipy.interpolate import interp1d
 from transformers import AutoModel,BertConfig,AutoTokenizer
 from safetensors.torch import load_model
 import json
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag")
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag/src")
+sys.path.append("Path/to/RP3D-Diag")
+sys.path.append("Path/to/src")
 
 def set_seed(seed=42):
     random.seed(seed)

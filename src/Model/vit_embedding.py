@@ -3,8 +3,8 @@ import torch.nn.functional as F
 import torch 
 from einops import rearrange
 import sys
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag")
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag/src")
+sys.path.append("Path/to/RP3D-Diag")
+sys.path.append("Path/to/RP3D-Diag/src")
 from vit import vit
 from einops.layers.torch import Rearrange
 import random

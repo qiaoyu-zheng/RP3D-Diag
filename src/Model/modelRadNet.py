@@ -1,9 +1,9 @@
 import numpy as np
 import sys
 from einops import rearrange
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag")
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag/src")
-sys.path.append("/remote-home/share/data200/172.16.11.200/zhengqiaoyu/RP3D-Diag/src/Model")
+sys.path.append("Path/to/RP3D-Diag")
+sys.path.append("Path/to/RP3D-Diag/src")
+sys.path.append("Path/to/RP3D-Diag/src/Model")
 from resnet2D import resnet18_2D, ResNet18_Weights
 from resnet3D import resnet18_3D
 from resnetFuse import resnet34_Fuse
