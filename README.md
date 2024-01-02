@@ -12,7 +12,7 @@ In this paper, we build up an academically accessible, large-scale diagnostic da
 
 <img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/RP3D-DiagDS.png"/>
 
-The images used in our dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1E_uSoCLm5H66a7KkpRfi1g?pwd=urfg)
+The images used in our dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1E_uSoCLm5H66a7KkpRfi1g?pwd=urfg) or [onedrive](https://1drv.ms/f/s!AssZeYdMyqj8gbs83q1oFOlNDXrGoA?e=uGC2Fn).
 
 The train/test split strategy and label csv files can be found in HuggingFace repository [RP3D-DiagDS](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS).
 
@@ -20,7 +20,7 @@ The train/test split strategy and label csv files can be found in HuggingFace re
 
 The architecture of our proposed visual encoder and fusion module, together with the knowledge enhancement strategy. (a) shows the details of the vision encoder. We design two variants to fit in the two main visual backbones, i.e., ResNet and ViT. (b) shows the transformer-based fusion module, enabling case-level information fusion. (c) shows the knowledge enhancement strategy. We first pre-train a text encoder with extra medical knowledge with contrastive learning, i.e., synonyms, descriptions and hierarchy, termed as knowledge encoder and then we view the text embedding as a natural classifier to guide the diagnosis classification.
 
-<img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/RP3D-DiagModel.png"/>
+<img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/RP3D-DiagModel.png"/> 
 
 The model checkpoint can also be found in HuggingFace repository [RP3D-DiagModel](https://huggingface.co/QiaoyuZheng/RP3D-DiagModel). (Uploading).
 
