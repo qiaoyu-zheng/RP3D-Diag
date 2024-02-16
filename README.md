@@ -12,7 +12,7 @@ In this paper, we build up an academically accessible, large-scale diagnostic da
 
 <img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/RP3D-DiagDS.png"/>
 
-The images used in our dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1RpAMmTvteuS-coWtIoziyg?pwd=gfek) or [onedrive](https://1drv.ms/f/s!AssZeYdMyqj8gbs83q1oFOlNDXrGoA?e=uGC2Fn).
+The images used in our dataset can be downloaded from [BaiduYun](https://pan.baidu.com/s/1RpAMmTvteuS-coWtIoziyg?pwd=gfek) or [onedrive](https://1drv.ms/f/s!AssZeYdMyqj8gbs8R57V9fIh3Cv2-Q?e=DCnbJs).
 
 The train/test split strategy and label csv files can be found in HuggingFace repository [RP3D-DiagDS](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS).
 
