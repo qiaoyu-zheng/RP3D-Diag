@@ -57,22 +57,53 @@ src
 |   |    |    ......
 ```
 
-## Evaluation
+## Eval
 
-1. Modify eval.sh (OUTDIR, CHECKPOINT)
-2. Run in terminal:  `bash eval.sh`
+1. cd .../src/Eval
+2. add data file to ./DataPath
+3. replace the relative path in ./Model/ and ./eval.py, ./eval.sh, etc with your absolute path.
+4. set checkpoint in ./eval.sh
+5. Run in terminal:  `bash eval.sh`
+**for more info, please refer to readme files in src/Eval/**
 
-## Training
+## Train
 
 ### From Scratch
 
-1. Modify train.sh (OUTDIR, LEVEL, DEPTH, FUSE, KE...)
-2. Run in terminal: `bash train.sh`
+1. cd .../src/Train
+2. add data file to ./DataPath/
+3. replace the relative path in ./Model/ and ./train.py, ./train.sh, etc with your absolute path.
+4. Run in terminal: `bash train.sh`
+**for more info, please refer to readme files in src/Train/**
 
 ### Load Checkpoint
 
-1. Modify train.sh (SAFETENSOR), the path should be the path for pytorch.model.bin, Modify CHECKPOINT to "None".
-2. Run in terminal: `bash train.sh`
+1. cd .../src/Train
+2. add data file to ./DataPath/
+3. replace the relative path in ./Model/ and ./train.py, ./train.sh, etc with your absolute path.
+4. set checkpoint in ./train.sh
+5. Run in terminal: `bash train.sh`
+**for more info, please refer to readme files in src/Train/**
+
+## Finetune
+
+1. cd .../src/Finetune
+2. add data file to ./DataPath/
+3. replace the relative path in ./Model/ and ./train.py, ./train.sh, etc with your absolute path.
+4. set checkpoint in ./train.sh
+5. Run in terminal: `bash train.sh`
+**for more info, please refer to readme files in src/Finetune/**
+
+## Zeroshot
+
+1. cd .../src/Zeroshot
+2. add data file to ./DataPath/
+3. replace the relative path in ./Model/ and ./predict.py, ./predict.sh, eval.py, etc with your absolute path.
+4. set checkpoint in ./eval.sh
+5. run in terminal: `bash predict.sh`
+6. run in terminal: python eval.py
+**for more info, please refer to readme files in src/Zeroshot/**
+
 
 ## Benchmark
 
