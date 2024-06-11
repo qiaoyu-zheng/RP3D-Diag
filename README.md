@@ -47,8 +47,9 @@ pip install -r requirements.txt
 ```
 src
 |   DataPath
-|   |    RP3D_train.json
-|   |    RP3D_test.json
+|   |    train.json
+|   |    test.json
+|   |    aug.json
 |   |    disorder_label_dict.json
 |   |    icd10_label_dict.json
 |   |    xxxCheckpoint
