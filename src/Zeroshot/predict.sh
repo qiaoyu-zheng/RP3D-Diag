@@ -1,6 +1,8 @@
-OUTDIR=".../src/Train/Logout/log1"
-PORT=29500
 
+
+
+OUTDIR=".../src/Zeroshot/Logout/log0Eval"
+PORT=28501
 START=0
 END=5569
 BACKBONE="resnet"
@@ -12,25 +14,25 @@ AUGMENT=True
 N_image=4
 N_aug=2
 Prob=0.7
-Dim=1
+Dim=0
 Hid_Dim=2048
 FUSE="late"
 MIX=False
 KE=False
 ADAPTER=False
-# CHECKPOINT="None"
-CHECKPOINT=".../checkpoint"
-SAFETENSOR="None"
+CHECKPOINT="None"
+SAFETENSOR=".../pytorch_model.bin"
+# SAFETENSOR="None"
 
 WORKER=16
 BATCHSIZE=1
 LR=1e-5
 
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=7
 # export NCCL_IGNORE_DISABLED_P2P=1
 # export http_proxy=http://172.16.6.115:18080  
 # export https_proxy=http://172.16.6.115:18080 
-nohup torchrun --nproc_per_node=1 --master_port $PORT .../src/Train/train.py \
+nohup torchrun --nproc_per_node=1 --master_port $PORT .../src/Zeroshot/predict.py \
     --output_dir $OUTDIR/output \
     --num_train_epochs 100 \
     --per_device_train_batch_size $BATCHSIZE \
@@ -39,6 +41,7 @@ nohup torchrun --nproc_per_node=1 --master_port $PORT .../src/Train/train.py \
     --save_strategy "epoch" \
     --learning_rate $LR \
     --save_total_limit 4 \
+    --save_safetensors False \
     --weight_decay 0. \
     --warmup_ratio 0.05 \
     --lr_scheduler_type "cosine" \
@@ -49,7 +52,7 @@ nohup torchrun --nproc_per_node=1 --master_port $PORT .../src/Train/train.py \
     --remove_unused_columns False \
     --metric_for_best_model "eval_loss" \
     --load_best_model_at_end True \
-    --report_to "wandb" \
+    --report_to "none" \
     --start_class $START \
     --end_class $END \
     --backbone $BACKBONE \
@@ -70,3 +73,4 @@ nohup torchrun --nproc_per_node=1 --master_port $PORT .../src/Train/train.py \
     --checkpoint $CHECKPOINT \
     --safetensor $SAFETENSOR \
 >> $OUTDIR/output.log 2>&1 &
+
