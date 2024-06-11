@@ -362,11 +362,11 @@ def main():
     safetensor = None if training_args.safetensor == "None" else training_args.safetensor
     print(name_str)
     print("Setup Data")
-    train_path = '.../src/Train/DataPath/Train_anatomy.json'
+    train_path = '.../src/Train/DataPath/train.json'
     # train_path = '.../src/Train/DataPath/Train_anatomyWith3D.json'
-    eval_path = '.../src/Train/DataPath/Test_anatomy.json'
-    aug_path = '.../src/Train/DataPath/Train_anatomy_dict.json'
-    label_path = ".../src/Train/DataPath/sorted_disease_label_dict.json" if level=='articles' else ".../src/Train/DataPath/sorted_icd10_label_dict.json"
+    eval_path = '.../src/Train/DataPath/test.json'
+    aug_path = '.../src/Train/DataPath/aug.json'
+    label_path = ".../src/Train/DataPath/disorder_label_dict.json" if level=='articles' else ".../src/Train/DataPath/icd10_label_dict.json"
     
     if fuse == 'late':
         print("Late!")
