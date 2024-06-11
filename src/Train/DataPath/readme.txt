@@ -1,4 +1,4 @@
-Train / Eval files should be add to this folder:
+Train / Eval files should be added to this folder:
 
 Required:
 --"train": train.json
