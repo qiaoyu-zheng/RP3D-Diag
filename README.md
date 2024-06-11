@@ -40,8 +40,8 @@ pip install -r requirements.txt
 
 ### Data Preparation
 
-* See the readme.txt in src/Datapath and download files from HuggingFace.
-* Modify all the paths (files in DataPath,all the python files and bash files) to your own.
+* Download files from HuggingFace.
+* Modify all the paths (files in DataPath, all the python files and bash files) to your own.
 * The DataPath folder shuold be like:
 
 ```
