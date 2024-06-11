@@ -68,6 +68,7 @@ src
 3. replace the relative path in ./Model/ and ./eval.py, ./eval.sh, etc with your absolute path.
 4. set checkpoint in ./eval.sh
 5. Run in terminal:  `bash eval.sh`
+
 **for more info, please refer to readme files in src/Eval/**
 
 ## Train
@@ -78,7 +79,7 @@ src
 2. add data file to ./DataPath/
 3. replace the relative path in ./Model/ and ./train.py, ./train.sh, etc with your absolute path.
 4. Run in terminal: `bash train.sh`
-**for more info, please refer to readme files in src/Train/**
+
 
 ### Load Checkpoint
 
@@ -87,6 +88,7 @@ src
 3. replace the relative path in ./Model/ and ./train.py, ./train.sh, etc with your absolute path.
 4. set checkpoint in ./train.sh
 5. Run in terminal: `bash train.sh`
+
 **for more info, please refer to readme files in src/Train/**
 
 ## Finetune
@@ -96,6 +98,7 @@ src
 3. replace the relative path in ./Model/ and ./train.py, ./train.sh, etc with your absolute path.
 4. set checkpoint in ./train.sh
 5. Run in terminal: `bash train.sh`
+
 **for more info, please refer to readme files in src/Finetune/**
 
 ## Zeroshot
@@ -106,6 +109,7 @@ src
 4. set checkpoint in ./eval.sh
 5. run in terminal: `bash predict.sh`
 6. run in terminal: python eval.py
+
 **for more info, please refer to readme files in src/Zeroshot/**
 
 
