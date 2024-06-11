@@ -28,11 +28,9 @@ The model checkpoint can also be found in HuggingFace repository [RP3D-DiagModel
 
 ### Environment
 
-```python
-python = 3.9
-pytorch(gpu) >= 2.0
-transformers = 4.32.1
-scikit-learn = 1.3.2
+To Install the python environments:
+```
+pip install -r requirements.txt
 ```
 
 ### Data Preparation
