@@ -147,6 +147,5 @@ with corresponding reference) on the datasets. Scratch means use our model but t
 
 We sincerely thank all the contributors who uploaded the relevant data in our dataset online. We appreciate their willingness to make these valuable cases publicly available.
 
-## Contact
+## Citation
 
-If you have any questions, please feel free to contact [three-world@sjtu.edu.cn](https://qiaoyu-zheng.github.io).
