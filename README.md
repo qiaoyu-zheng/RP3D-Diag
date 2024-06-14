@@ -18,7 +18,7 @@ The train/test split strategy and label csv files can be found in HuggingFace re
 
 ## Model
 
-The overview of our method. Three parts demonstrate our proposed visual encoders and fusion module, together
+The overview of our model **RadDiag**. Three parts demonstrate our proposed visual encoders and fusion module, together
 with the knowledge enhancement strategy respectively. a, The three types of vision encoder, i.e., ResNet-based, ViT-based , and
 ResNet-ViT-mixing. b, The architecture of the fusion module. The figure shows the transformer-based fusion module, enabling
 case-level information fusion. c, The knowledge enhancement strategy. We first pre-train a text encoder with extra medical
