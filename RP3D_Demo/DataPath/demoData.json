@@ -1,0 +1,439 @@
+{
+    "https://radiopaedia.org//cases/perforated-saccular-abdominal-aortic-aneurysm-1?lang=us": {
+        "Modalities": [
+            "CT",
+            "MRI"
+        ],
+        "Samples": [
+            {
+                "image_path": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/npys/34268/1/CT_0.nii.gz"
+                ],
+                "image": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images_wm/3/34268/1/CT_0.nii.gz"
+                ],
+                "image_modality": [
+                    "CT"
+                ],
+                "plane_projection": [
+                    "Axial"
+                ],
+                "aux_modality": [
+                    "non-contrast"
+                ],
+                "qa_list": [
+                    {
+                        "question": "What is the location of the aortic aneurysm?",
+                        "answer": "Arising from the abdominal aorta near the bifurcation."
+                    },
+                    {
+                        "question": "Is there an associated hematoma visible in the CT scan?",
+                        "answer": "Yes, there is a large retroperitoneal hematoma at the left side of the pelvic sidewall extending to the left paracolic gutter."
+                    },
+                    {
+                        "question": "Are there any findings related to the kidneys in the CT scan?",
+                        "answer": "Yes, the right kidney is mildly atrophic, and the left is markedly atrophic with mild left hydronephrosis and hydroureter. Additionally, a nodule is seen in the left adrenal gland."
+                    }
+                ],
+                "image_caption": "Saccular aortic aneurysm arising from the abdominal aorta near the bifurcation.A large retroperitoneal hematoma at the left side of the pelvic sidewall extending to the left paracolic gutter.\u00a0 The hematoma demonstrates a fluid-fluid level with adjacent fat stranding. Hyperdense fluid is present in the perihepatic space in keeping with some intraperitoneal hemorrhage. \u00a0Other findings :The right kidney is mildly atrophic,\u00a0the left is markedly atrophic with mild left hydronephrosis and hydroureter.\u00a0Left adrenal gland demonstrates a nodule.",
+                "link": "https://radiopaedia.org//cases/perforated-saccular-abdominal-aortic-aneurysm-1?lang=us",
+                "title": "Perforated saccular abdominal aortic  aneurysm",
+                "pre": "Abdominal pain and distension ? bowel obstruction. Patient is allergic to contrast.",
+                "pat": "Patient Data  Age: 85 years  Gender: Female",
+                "case_discussion": "Case DiscussionThis case was challenging to diagnose as\u00a0the\u00a0patient presented with non-specific symptoms that were clinically thought to be caused by\u00a0bowel obstruction. Also, due to known contrast allergy,\u00a0IV contrast could not be administered which made it difficult\u00a0to assess for\u00a0active hemorrhage.\u00a0The patient remained\u00a0clinically stable with\u00a0slight\u00a0anemia\u00a0(Hb 70). Urgent MRI with contrast was performed which confirmed lack of active hemorrhage.",
+                "articles": [
+                    "Abdominal aortic aneurysm rupture",
+                    "Abdominal aortic aneurysm"
+                ],
+                "finding": "Saccular aortic aneurysm arising from the abdominal aorta near the bifurcation. A large retroperitoneal hematoma at the left side of the pelvic sidewall extending to the left paracolic gutter. The hematoma demonstrates a fluid-fluid level with adjacent fat stranding. Hyperdense fluid is present in the perihepatic space in keeping with some intraperitoneal hemorrhage. The right kidney is mildly atrophic, the left is markedly atrophic with mild left hydronephrosis and hydroureter. Left adrenal gland demonstrates a nodule.",
+                "impression": "Saccular aortic aneurysm. Retroperitoneal hematoma with signs of intraperitoneal hemorrhage. Bilateral renal atrophy with left hydronephrosis and hydroureter. Left adrenal gland nodule.",
+                "npy_path": "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images/3/6181.npy",
+                "anatomy": "Abdomen and Pelvis",
+                "icd10s": [
+                    "I71"
+                ],
+                "icd10news": [
+                    "I71"
+                ],
+                "key_npy_path": "/mnt/petrelfs/zhengqiaoyu.p/Radiopedia_Process/DataKey/comb_npy/32622.npy",
+                "image_modalitys": [
+                    "CT"
+                ],
+                "image_data_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/data/123742.npy"
+                ],
+                "image_key_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/key/123742.npy"
+                ]
+            },
+            {
+                "image_path": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/npys/34268/2/MRI_0.nii.gz"
+                ],
+                "image": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images_wm/3/34268/2/MRI_0.nii.gz"
+                ],
+                "image_modality": [
+                    "MRI"
+                ],
+                "plane_projection": [
+                    "Axial"
+                ],
+                "aux_modality": [
+                    "T1 C+ fat sat"
+                ],
+                "qa_list": [
+                    {
+                        "question": "Can you describe the shape of the aneurysm?",
+                        "answer": "Yes, the aneurysm is saccular in shape."
+                    },
+                    {
+                        "question": "What is the location of the aneurysm in the abdominal aorta?",
+                        "answer": "The aneurysm arises from the distal abdominal aorta at the level of the aortic bifurcation."
+                    },
+                    {
+                        "question": "Is there any thrombus formation observed within the aneurysm?",
+                        "answer": "Yes, there is a crescentic cap of mural thrombus observed due to recent hemorrhage."
+                    },
+                    {
+                        "question": "Is there any active bleeding seen from the aneurysm at the time of scanning?",
+                        "answer": "No, there is no contrast extravasation seen from the aneurysm to suggest active bleeding at the time of scanning."
+                    }
+                ],
+                "image_caption": "A large saccular aneurysm arises from the distal abdominal aorta at the level of the aortic bifurcation measuring . It demonstrates a crescentic cap of mural thrombus due to recent hemorrhage. The left retroperitoneal pelvic sidewall hematoma is again demonstrated. There is no contrast extravasation from the aneurysm to suggest active bleeding at the time of scanning.",
+                "link": "https://radiopaedia.org//cases/perforated-saccular-abdominal-aortic-aneurysm-1?lang=us",
+                "title": "Perforated saccular abdominal aortic  aneurysm",
+                "pre": "Abdominal pain and distension ? bowel obstruction. Patient is allergic to contrast.",
+                "pat": "Patient Data  Age: 85 years  Gender: Female",
+                "case_discussion": "Case DiscussionThis case was challenging to diagnose as\u00a0the\u00a0patient presented with non-specific symptoms that were clinically thought to be caused by\u00a0bowel obstruction. Also, due to known contrast allergy,\u00a0IV contrast could not be administered which made it difficult\u00a0to assess for\u00a0active hemorrhage.\u00a0The patient remained\u00a0clinically stable with\u00a0slight\u00a0anemia\u00a0(Hb 70). Urgent MRI with contrast was performed which confirmed lack of active hemorrhage.",
+                "articles": [
+                    "Abdominal aortic aneurysm rupture",
+                    "Abdominal aortic aneurysm"
+                ],
+                "finding": "A large saccular aneurysm arises from the distal abdominal aorta at the level of the aortic bifurcation measuring . It demonstrates a crescentic cap of mural thrombus due to recent hemorrhage. The left retroperitoneal pelvic sidewall hematoma is again demonstrated. There is no contrast extravasation from the aneurysm to suggest active bleeding at the time of scanning.",
+                "impression": "Large saccular aneurysm with mural thrombus. Left retroperitoneal pelvic sidewall hematoma. No evidence of active bleeding from the aneurysm at the time of scanning.",
+                "npy_path": "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images/3/6182.npy",
+                "anatomy": "Abdomen and Pelvis",
+                "icd10s": [
+                    "I71"
+                ],
+                "icd10news": [
+                    "I71"
+                ],
+                "key_npy_path": "/mnt/petrelfs/zhengqiaoyu.p/Radiopedia_Process/DataKey/comb_npy/32623.npy",
+                "image_modalitys": [
+                    "MRI"
+                ],
+                "image_data_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/data/123743.npy"
+                ],
+                "image_key_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/key/123743.npy"
+                ]
+            }
+        ],
+        "key_slice": [
+            {
+                "image_0": 45
+            },
+            {
+                "image_0": 31
+            }
+        ],
+        "Anatomies": [
+            "Abdomen and Pelvis",
+            "Abdomen and Pelvis"
+        ],
+        "Anatomy": "Abdomen and Pelvis"
+    },
+    "https://radiopaedia.org//cases/hip-dislocation-inferior-1?lang=us": {
+        "Modalities": [
+            "X-ray",
+            "CT"
+        ],
+        "Samples": [
+            {
+                "image_path": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/npys/35480/1/X-ray_0.nii.gz"
+                ],
+                "image": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images_wm/3/35480/1/X-ray_0.nii.gz"
+                ],
+                "image_modality": [
+                    "X-ray"
+                ],
+                "plane_projection": [
+                    "Frontal"
+                ],
+                "aux_modality": [
+                    null
+                ],
+                "qa_list": [
+                    {
+                        "question": "What is the diagnosis for the left femoral head?",
+                        "answer": "Inferior dislocation."
+                    },
+                    {
+                        "question": "Are there any other findings in the image?",
+                        "answer": "Yes. Fallopian tube occlusion rings are noted."
+                    }
+                ],
+                "image_caption": "Inferior dislocation\u00a0of the left femoral head. Fallopian tube occlusion rings noted.",
+                "link": "https://radiopaedia.org//cases/hip-dislocation-inferior-1?lang=us",
+                "title": "Hip dislocation - inferior",
+                "pre": "Road traffic accident.",
+                "pat": "Patient Data  Age: 25 years  Gender: Female",
+                "case_discussion": "Case DiscussionThe patient underwent closed reduction. Hip dislocation is a relatively rare entity and may be congenital or acquired. There are numerous patterns of dislocation:posterior hip dislocation\u00a0(most common ~85%)anterior hip dislocation\u00a0(~10%)inferior type (obturator)superior type (pubic/iliac)",
+                "articles": [
+                    "Hip dislocation"
+                ],
+                "finding": "Inferior dislocation of the left femoral head. Fallopian tube occlusion rings noted.",
+                "impression": "Inferior dislocation of the left femoral head. Fallopian tube occlusion rings noted.",
+                "npy_path": "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images/3/7968.npy",
+                "anatomy": "Lower Limb",
+                "icd10s": [
+                    "S73"
+                ],
+                "icd10news": [
+                    "S73"
+                ],
+                "key_npy_path": "/mnt/petrelfs/zhengqiaoyu.p/Radiopedia_Process/DataKey/comb_npy/33785.npy",
+                "image_modalitys": [
+                    "X-ray"
+                ],
+                "image_data_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/data/127781.npy"
+                ],
+                "image_key_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/key/127781.npy"
+                ]
+            },
+            {
+                "image_path": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/npys/35480/2/CT_0.nii.gz",
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/npys/35480/2/CT_1.nii.gz"
+                ],
+                "image": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images_wm/3/35480/2/CT_0.nii.gz",
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images_wm/3/35480/2/CT_1.nii.gz"
+                ],
+                "image_modality": [
+                    "CT",
+                    "CT"
+                ],
+                "plane_projection": [
+                    "Axial",
+                    "Coronal"
+                ],
+                "aux_modality": [
+                    "bone window",
+                    "bone window"
+                ],
+                "qa_list": [
+                    {
+                        "question": "What is the diagnosis for the hip region in the provided image?",
+                        "answer": "Left inferior hip dislocation with no fracture of acetabulum."
+                    },
+                    {
+                        "question": "Is there any specific area or region of femoral head which is affected by this condition?",
+                        "answer": "Yes. The superior surface of femoral head shows subtle indentation."
+                    },
+                    {
+                        "question": "What is the probable cause of this condition?",
+                        "answer": "There are several causes that may result in inferior hip dislocation, including trauma, severe muscle spasm, or an episode of convulsions. However, it's difficult to determine the exact cause just based on the image."
+                    }
+                ],
+                "image_caption": "Left inferior hip dislocation with subtle indentation of the superior surface of femoral head by the anterolateral margin of obturator foramen.No fracture of acetabulum.",
+                "link": "https://radiopaedia.org//cases/hip-dislocation-inferior-1?lang=us",
+                "title": "Hip dislocation - inferior",
+                "pre": "Road traffic accident.",
+                "pat": "Patient Data  Age: 25 years  Gender: Female",
+                "case_discussion": "Case DiscussionThe patient underwent closed reduction. Hip dislocation is a relatively rare entity and may be congenital or acquired. There are numerous patterns of dislocation:posterior hip dislocation\u00a0(most common ~85%)anterior hip dislocation\u00a0(~10%)inferior type (obturator)superior type (pubic/iliac)",
+                "articles": [
+                    "Hip dislocation"
+                ],
+                "finding": "Left inferior hip dislocation with subtle indentation of the superior surface of femoral head by the anterolateral margin of obturator foramen. No fracture of acetabulum.",
+                "impression": "Left inferior hip dislocation with no accompanying fracture of the acetabulum.",
+                "npy_path": "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images/3/7969.npy",
+                "anatomy": "Lower Limb",
+                "icd10s": [
+                    "S73"
+                ],
+                "icd10news": [
+                    "S73"
+                ],
+                "key_npy_path": "/mnt/petrelfs/zhengqiaoyu.p/Radiopedia_Process/DataKey/comb_npy/33786.npy",
+                "image_modalitys": [
+                    "CT",
+                    "CT"
+                ],
+                "image_data_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/data/127782.npy",
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/data/127783.npy"
+                ],
+                "image_key_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/key/127782.npy",
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/key/127783.npy"
+                ]
+            }
+        ],
+        "key_slice": [
+            {
+                "image_0": 0
+            },
+            {
+                "image_0": 25,
+                "image_1": 11
+            }
+        ],
+        "Anatomies": [
+            "Lower Limb",
+            "Lower Limb"
+        ],
+        "Anatomy": "Lower Limb"
+    },
+    "https://radiopaedia.org//cases/segond-fracture-5?lang=us": {
+        "Modalities": [
+            "X-ray",
+            "MRI"
+        ],
+        "Samples": [
+            {
+                "image_path": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/npys/43317/1/X-ray_0.nii.gz"
+                ],
+                "image": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images_wm/4/43317/1/X-ray_0.nii.gz"
+                ],
+                "image_modality": [
+                    "X-ray"
+                ],
+                "plane_projection": [
+                    "Frontal"
+                ],
+                "aux_modality": [
+                    null
+                ],
+                "qa_list": [
+                    {
+                        "question": "Where is the location of the fracture in the leg?",
+                        "answer": "The fracture is seen involving the lateral tibial plateau."
+                    },
+                    {
+                        "question": "What type of fracture is seen in the image?",
+                        "answer": "The fracture is an avulsive fracture that is compatible with a Segond fracture."
+                    }
+                ],
+                "image_caption": "An avulsive fracture is seen involving the lateral tibial plateau, compatible with a Segond fracture.",
+                "link": "https://radiopaedia.org//cases/segond-fracture-5?lang=us",
+                "title": "Segond fracture",
+                "pre": "Post knee trauma.",
+                "pat": "Patient Data  Age: 13 years  Gender: Male",
+                "case_discussion": "",
+                "articles": [
+                    "Anterior cruciate ligament tear",
+                    "Segond fracture"
+                ],
+                "finding": "An avulsive fracture is seen involving the lateral tibial plateau, compatible with a Segond fracture.",
+                "impression": "Avulsive fracture involving the lateral tibial plateau, consistent with a Segond fracture.",
+                "npy_path": "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images/4/4620.npy",
+                "anatomy": "Lower Limb",
+                "icd10s": [
+                    "S82",
+                    "S83"
+                ],
+                "icd10news": [
+                    "S83",
+                    "S82"
+                ],
+                "key_npy_path": "/mnt/petrelfs/zhengqiaoyu.p/Radiopedia_Process/DataKey/comb_npy/40539.npy",
+                "image_modalitys": [
+                    "X-ray"
+                ],
+                "image_data_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/data/149462.npy"
+                ],
+                "image_key_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/key/149462.npy"
+                ]
+            },
+            {
+                "image_path": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/npys/43317/2/MRI_0.nii.gz",
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/npys/43317/2/MRI_1.nii.gz"
+                ],
+                "image": [
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images_wm/4/43317/2/MRI_0.nii.gz",
+                    "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images_wm/4/43317/2/MRI_1.nii.gz"
+                ],
+                "image_modality": [
+                    "MRI",
+                    "MRI"
+                ],
+                "plane_projection": [
+                    "Sagittal",
+                    "Sagittal"
+                ],
+                "aux_modality": [
+                    "Gradient Echo",
+                    "Gradient Echo"
+                ],
+                "qa_list": [
+                    {
+                        "question": "What is observed in the MRI?",
+                        "answer": "A vertical tear of the posterior horn of the medial meniscus associated with an ACL tear."
+                    }
+                ],
+                "image_caption": "MRI shows vertical tear of medial meniscus's posterior horn associated with ACL tear.",
+                "link": "https://radiopaedia.org//cases/segond-fracture-5?lang=us",
+                "title": "Segond fracture",
+                "pre": "Post knee trauma.",
+                "pat": "Patient Data  Age: 13 years  Gender: Male",
+                "case_discussion": "",
+                "articles": [
+                    "Anterior cruciate ligament tear",
+                    "Segond fracture"
+                ],
+                "finding": "Vertical tear of medial meniscus's posterior horn associated with ACL tear.",
+                "impression": "Vertical tear of medial meniscus's posterior horn associated with ACL tear.",
+                "npy_path": "/mnt/petrelfs/share_data/zhangxiaoman/DATA/Radio_VQA/processed_file/processed_images/4/4621.npy",
+                "anatomy": "Lower Limb",
+                "icd10s": [
+                    "S82",
+                    "S83"
+                ],
+                "icd10news": [
+                    "S83",
+                    "S82"
+                ],
+                "key_npy_path": "/mnt/petrelfs/zhengqiaoyu.p/Radiopedia_Process/DataKey/comb_npy/40540.npy",
+                "image_modalitys": [
+                    "MRI",
+                    "MRI"
+                ],
+                "image_data_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/data/149463.npy",
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/data/149464.npy"
+                ],
+                "image_key_path": [
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/key/149463.npy",
+                    "/home/qiaoyuzheng/MedVisionDemo/DataPath/DemoData/key/149464.npy"
+                ]
+            }
+        ],
+        "key_slice": [
+            {
+                "image_0": 0
+            },
+            {
+                "image_0": 0,
+                "image_1": 0
+            }
+        ],
+        "Anatomies": [
+            "Lower Limb",
+            "Lower Limb"
+        ],
+        "Anatomy": "Lower Limb"
+    }
+}
