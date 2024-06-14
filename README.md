@@ -63,6 +63,8 @@ src
 
 
 
+To run this demo, please refer to [RP3D_Demo_Instruction.md](https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/RP3D_Demo_Instruction.md)
+
 
 
 
