@@ -1,8 +1,0 @@
-resnet_articles_32_MultiLabel_True_early_4_2_False
-Setup Data
-Early!
-Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet50_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet50_Weights.DEFAULT` to get the most up-to-date weights.
-Missing: []
-Unexpect: []
-  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 26.46it/s]100%|██████████| 3/3 [00:00<00:00, 25.68it/s]
-{'eval_loss': 0.0007027875981293619, 'eval_runtime': 1.8996, 'eval_samples_per_second': 1.579, 'eval_steps_per_second': 1.579}

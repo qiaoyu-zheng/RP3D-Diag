@@ -5,12 +5,12 @@ def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
 thds = [[0.3722658157348633, 0.14874456822872162], [0.2768756449222564], [0.094383917748928, 0.179479107260704]]
-with open("/home/qiaoyuzheng/MedVisionDemo/DataPath/disorder_label_dict.json", 'r') as f:
+with open(".../RP3D_Demo/DataPath/disorder_label_dict.json", 'r') as f:
     disorder_label_dict = json.load(f)
 disorders = np.array(list(disorder_label_dict.keys()))
 
-logits = np.load("/home/qiaoyuzheng/MedVisionDemo/DataOutput/eval_logits.npy")
-labels = np.load("/home/qiaoyuzheng/MedVisionDemo/DataOutput/eval_labels.npy")
+logits = np.load(".../RP3D_Demo/DataOutput/eval_logits.npy")
+labels = np.load(".../RP3D_Demo/DataOutput/eval_labels.npy")
 scores = sigmoid(logits)
 
 indices = []

@@ -1,9 +1,9 @@
 import numpy as np
 import sys
-sys.path.append("/home/qiaoyuzheng/MedVisionDemo")
-sys.path.append("/home/qiaoyuzheng/MedVisionDemo/Model")
-sys.path.append("/home/qiaoyuzheng/MedVisionDemo/Loss")
-sys.path.append("/home/qiaoyuzheng/MedVisionDemo/Utils")
+sys.path.append(".../RP3D_Demo")
+sys.path.append(".../RP3D_Demo/Model")
+sys.path.append(".../RP3D_Demo/Loss")
+sys.path.append(".../RP3D_Demo/Utils")
 from einops import rearrange
 from resnet2D import resnet50_2D, ResNet50_Weights, resnet34_2D, ResNet34_Weights
 from Loss.AllLosses import  MultiLabelLoss, MSEwithGaussian, KLwithGaussian, SoftCrossEntropy, InfoNCELoss
@@ -103,7 +103,7 @@ class RadNet(nn.Module):
         # self.attnloss = InfoNCELoss(length=depth, temperature=0.07, thd=5)
         if self.ke:
             print("KEKE!")
-            self.bioLORD = AutoModel.from_pretrained("/home/qiaoyuzheng/.cache/huggingface/hub/models--FremyCompany--BioLORD-2023/snapshots/a6820705a8299ab89394aa4856a98b695bc32b75")
+            self.bioLORD = AutoModel.from_pretrained('FremyCompany/BioLORD-2023')
             for param in self.bioLORD.parameters():
                 param.requires_grad = False
             self.fcke = nn.Linear(768, hid_dim)
@@ -127,7 +127,7 @@ class RadNet(nn.Module):
             if tmp_Aug:
                 image_x = rearrange(image_x, "b c h w -> b h w c")
                 image_x = transform(image_x)
-                # visual_augment(B1, image_x1, "/home/qiaoyuzheng/MedVisionDemo/Logits/Aug_2D_2")
+                # visual_augment(B1, image_x1, ".../RP3D_Demo/Logits/Aug_2D_2")
                 image_x = rearrange(image_x, "b h w c -> b c h w")
             if self.backbone == 'resnet':
                 output = self.resnet2D(image_x)
@@ -195,7 +195,7 @@ class RadNet(nn.Module):
             if tmp_Aug:
                 image_x = rearrange(image_x, "b c h w -> b h w c")
                 image_x = transform(image_x)
-                # visual_augment(B1, image_x1, "/home/qiaoyuzheng/MedVisionDemo/Logits/Aug_2D_2")
+                # visual_augment(B1, image_x1, ".../RP3D_Demo/Logits/Aug_2D_2")
                 image_x = rearrange(image_x, "b h w c -> b c h w")
             if self.backbone == 'resnet':
                 output = self.resnet2D(image_x)

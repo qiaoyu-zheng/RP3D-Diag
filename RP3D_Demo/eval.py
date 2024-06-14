@@ -48,7 +48,7 @@ class TrainingArguments(transformers.TrainingArguments):
     remove_unused_columns: bool = field(default = False)
     per_device_train_batch_size: int = field(default = 32)
     per_device_eval_batch_size: int = field(default = 32)
-    output_dir: Optional[str] = field(default="/home/qiaoyuzheng/MedVisionDemo/results/output1")
+    output_dir: Optional[str] = field(default=".../RP3D_Demo/Logout")
     cache_dir: Optional[str] = field(default=None)
     optim: str = field(default="adamw_torch")
     dataloader_drop_last: bool = field(default=True)
@@ -98,7 +98,6 @@ def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
 def find_nearest(array, value):
-    """找到数组中最接近给定值的元素的索引"""
     array = np.asarray(array)
     idx = (np.abs(array - value)).argmin()
     return idx
@@ -270,55 +269,10 @@ def compute_metrics(eval_preds, level, name):
     label_ids = eval_preds.label_ids
     loss,loss_attn,loss_cls,logits,labels = predictions
     logits = np.clip(logits,-60,60)
-    np.save("/home/qiaoyuzheng/MedVisionDemo/DataOutput/eval_logits.npy", logits)
-    np.save("/home/qiaoyuzheng/MedVisionDemo/DataOutput/eval_labels.npy", labels)
-
-    if level == 'icd10s':
-        labels_head, logits_head = labels[:,:165], logits[:,:165]
-        labels_body, logits_body = labels[:,165:395], logits[:,165:395]
-        labels_tail, logits_tail = labels[:,395:], logits[:,395:]
-    elif level == 'articles':
-        labels_head, logits_head = labels[:,:85], logits[:,:85]
-        labels_body, logits_body = labels[:,85:555], logits[:,85:555]
-        labels_tail, logits_tail = labels[:,555:], logits[:,555:]
-    else:
-        raise ValueError("Invalid level in compute metrics!")
-
-    # evalRes_head = eval_strategy(labels_head, logits_head, epoch, name, 'head')
-    # evalRes_body = eval_strategy(labels_body, logits_body, epoch, name, 'body')
-    # evalRes_tail = eval_strategy(labels_tail, logits_tail, epoch, name, 'tail')
+    np.save(".../RP3D_Demo/DataOutput/eval_logits.npy", logits)
+    np.save(".../RP3D_Demo/DataOutput/eval_labels.npy", labels)
     
     metrics = {
-        # "loss": np.mean(loss),
-        # "loss_attn": np.mean(loss_attn),
-        # "loss_cls": np.mean(loss_cls),
-        # 'mAUC_head': evalRes_head['mAUC'],
-        # 'mAP_head': evalRes_head['mAP_CW'],
-        # 'mF1max_head': evalRes_head['mF1max'],
-        # 'mMCC_head': evalRes_head['mMCC'],
-        # 'mR@F0.01_head': evalRes_head['mR@F0.01'],
-        # 'mR@F0.05_head': evalRes_head['mR@F0.05'], 
-        # 'mR@F0.1_head': evalRes_head['mR@F0.1'],
-        # 'mR@F0.2_head': evalRes_head['mR@F0.2'],
-        # 'mR@F0.5_head': evalRes_head['mR@F0.5'], 
-        # 'mAUC_body': evalRes_body['mAUC'],
-        # 'mAP_body': evalRes_body['mAP_CW'],
-        # 'mF1max_body': evalRes_body['mF1max'],
-        # 'mMCC_body': evalRes_body['mMCC'],
-        # 'mR@F0.01_body': evalRes_body['mR@F0.01'],
-        # 'mR@F0.05_body': evalRes_body['mR@F0.05'], 
-        # 'mR@F0.1_body': evalRes_body['mR@F0.1'],
-        # 'mR@F0.2_body': evalRes_body['mR@F0.2'],
-        # 'mR@F0.5_body': evalRes_body['mR@F0.5'], 
-        # 'mAUC_tail': evalRes_tail['mAUC'],
-        # 'mAP_tail': evalRes_tail['mAP_CW'],
-        # 'mF1max_tail': evalRes_tail['mF1max'],
-        # 'mMCC_tail': evalRes_tail['mMCC'],
-        # 'mR@F0.01_tail': evalRes_tail['mR@F0.01'],
-        # 'mR@F0.05_tail': evalRes_tail['mR@F0.05'], 
-        # 'mR@F0.1_tail': evalRes_tail['mR@F0.1'],
-        # 'mR@F0.2_tail': evalRes_tail['mR@F0.2'],
-        # 'mR@F0.5_tail': evalRes_tail['mR@F0.5'],   
     }
     return metrics
     
@@ -349,9 +303,9 @@ def main():
     safetensor = None if training_args.safetensor == "None" else training_args.safetensor
     print(name_str)
     print("Setup Data")
-    train_path = '/home/qiaoyuzheng/MedVisionDemo/DataPath/demoData.json'
-    eval_path = '/home/qiaoyuzheng/MedVisionDemo/DataPath/demoData.json'
-    label_path = "/home/qiaoyuzheng/MedVisionDemo/DataPath/disorder_label_dict.json"
+    train_path = '.../RP3D_Demo/DataPath/demoData.json'
+    eval_path = '.../RP3D_Demo/DataPath/demoData.json'
+    label_path = ".../RP3D_Demo/DataPath/disorder_label_dict.json"
     
     if fuse == 'late':
         print("Late!")
