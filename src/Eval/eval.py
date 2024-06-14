@@ -458,7 +458,7 @@ def main():
     train_path = '.../src/Eval/DataPath/Train_anatomy.json'
     eval_path = '.../src/Eval/DataPath/Test_anatomy.json'
     aug_path = '.../src/Eval/DataPath/Train_anatomy_dict.json'
-    label_path = ".../src/Eval/DataPath/sorted_disease_label_dict.json" if level=='articles' else ".../src/Eval/DataPath/sorted_icd10_label_dict.json"
+    label_path = ".../src/Eval/DataPath/disorder_label_dict.json" if level=='articles' else ".../src/Eval/DataPath/icd10_label_dict.json"
     
     if fuse == 'late':
         print("Late!")
