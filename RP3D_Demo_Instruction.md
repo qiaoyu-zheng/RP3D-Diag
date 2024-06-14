@@ -26,7 +26,7 @@ The data info file is .../RP3D_Demo/DataPath/demoData.json
 pip install -r requirements
 ```
 
-Please click [requirements.txt](https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/requirements.txt ) for detailed information
+Please refer to [requirements.txt](https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/requirements.txt ) for detailed information
 
 `Step2`:
 
