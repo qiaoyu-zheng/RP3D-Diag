@@ -27,7 +27,7 @@ natural classifier to guide the diagnosis classification.
 
 <img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/RP3D-DiagModel.png"/> 
 
-The model checkpoint can also be found in HuggingFace repository [RadDiag](https://huggingface.co/QiaoyuZheng/RadDiag). (Under updating).
+The model checkpoint can also be found in HuggingFace repository [RadDiag](https://huggingface.co/QiaoyuZheng/RadDiag).
 
 ## Setup
 
