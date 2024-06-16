@@ -19,7 +19,7 @@ MIX=False
 KE=False
 ADAPTER=False
 CHECKPOINT="None"
-SAFETENSOR=".../RP3D_Demo/Logout/RP3D_5569_res_ART_256_32_BCE_T_4_2_0.7_2048_E_F_F_F_N/output/pytorch_model.bin"
+SAFETENSOR=".../RP3D_Demo/Logout/RP3D_5569_res_ART_256_32_BCE_T_4_2_0.7_2048_E_F_F_F_N/pytorch_model.bin"
 # SAFETENSOR="None"
 
 WORKER=1
