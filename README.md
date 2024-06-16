@@ -144,11 +144,32 @@ with corresponding reference) on the datasets. Scratch means use our model but t
 
 |   Dataset   | Scratch | Ours | SOTA |
 | :---------: | :-----: | :---: | :---: |
-| VinDr-Mammo |  76.25  | 78.53 | 77.50 |
-|    CXR14    |  79.12  | 83.38 | 82.50 |
-| VinDr-Spine |  87.35  | 87.73 | 88.90 |
-| MosMedData |  71.24  | 75.39 | 68.47 |
-|    ADNI    |  82.40  | 84.21 | 79.34 |
+| VinDr-Mammo |  76.25  | 78.46 | 77.50 |
+|    CXR14    |  79.12  | 83.44 | 82.50 |
+| VinDr-Spine |  87.35  | 87.92 | 88.90 |
+| MosMedData |  72.36  | 76.79 | 68.47 |
+|    ADNI    |  83.44  | 85.61 | 79.34 |
+| NSCLC | 67.25 | 72.54 | N/A |
+| TCGA | 88.66 | 95.17 | N/A |
+| ISPY1 | 65.88 | 69.43 | N/A |
+| ChestX-Det10 | 74.11 | 79.44 | N/A |
+| CheXpert | 89.52 | 91.27 | 93.00 |
+| COVID-19-Radio | 95.39 | 98.56 | N/A |
+| IU-Xray | 74.01 | 76.04 | N/A |
+| LNDb | 68.76 | 70.58 | N/A |
+| PadChest | 74.22 | 76.15 | 77.30 |
+| CC-CCII | 98.27 | 99.46 | 97.41 |
+| RadChest | 74.22 | 76.15 | 77.30 |
+| Brain-Tumor | 91.05 | 93.21 | N/A |
+| Brain-Tumor-17 | 93.66 | 94.43 | N/A |
+| POCUS | 94.31 | 95.46 | 94.00 |
+| MURA | 86.25 | 88.31 | 92.90 |
+| KneeMRI | 73.05 | 73.22 | N/A |
+| CT-Kidney | 91.41 | 93.26 | N/A |
+
+In zero-shot assessment, we evaluate the transferring ability of our final model on normal/abnormal diagnosis for external dataset.
+
+<img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/NormalVisulization_adjust.png"/>
 
 ## Acknowledgment
 
