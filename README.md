@@ -126,12 +126,12 @@ To run this demo, please refer to [RP3D_Demo_Instruction.md](https://github.com/
 
 | Granularity | Class |  AUC  |  AP  |  F1  |  MCC  | R@0.01 | R@0.05 | R@0.1 |
 | :---------: | :----: | :---: | :---: | :---: | :---: | :----: | :----: | :---: |
-|  Disorders  |  Head  | 94.24 | 15.13 | 25.68 | 26.71 | 37.06 | 66.55 | 81.37 |
-|  Disorders  | Medium | 94.69 | 12.38 | 20.64 | 24.07 | 31.52 | 65.34 | 78.73 |
-|  Disorders  |  Tail  | 90.64 | 9.25 | 9.89 | 14.38 | 10.98 | 27.98 | 43.53 |
-|  ICD-10-CM  |  Head  | 90.89 | 14.37 | 22.67 | 24.29 | 26.11 | 53.82 | 69.16 |
-|  ICD-10-CM  | Medium | 91.67 | 9.56 | 18.32 | 20.77 | 25.68 | 52.85 | 66.63 |
-|  ICD-10-CM  |  Tail  | 86.55 | 4.81 | 8.69 | 12.74 |  8.86  | 22.75 | 37.97 |
+|  Disorders  |  Head  | 94.41 | 20.27 | 30.21 | 32.27 | 41.93 | 71.09 | 81.15 |
+|  Disorders  | Medium | 95.14 | 15.95 | 25.82 | 28.84 | 42.49 | 68.73 | 79.39 |
+|  Disorders  |  Tail  | 90.96 | 7.75 | 12.68 | 17.49 | 13.13 | 28.88 | 44.08 |
+|  ICD-10-CM  |  Head  | 91.27 | 14.59 | 22.81 | 25.12 | 27.87 | 57.75 | 72.32 |
+|  ICD-10-CM  | Medium | 92.01 | 10.34 | 19.08 | 22.16 | 28.81 | 55.55 | 69.86 |
+|  ICD-10-CM  |  Tail  | 88.11 | 5.57 | 10.48 | 14.68 |  12.75  | 30.11 | 51.77 |
 
 ROC curves on Disorders and ICD-10-CM, including head/medium/tail parts respectively. The shadow in the figure shown the 95\% CI~(Confidence interval) and FM, KE are short for Fusion Module and Knowledge Enhancement.
 
