@@ -176,4 +176,13 @@ In zero-shot assessment, we evaluate the transferring ability of our final model
 We sincerely thank all the contributors who uploaded the relevant data in our dataset online. We appreciate their willingness to make these valuable cases publicly available.
 
 ## Citation
+```
+@article{zheng2023large,
+          title={Large-scale Long-tailed Disease Diagnosis on Radiology Images},
+          author={Zheng, Qiaoyu and Zhao, Weike and Wu, Chaoyi and Zhang, Xiaoman and Zhang, 
+            Ya and Wang, Yanfeng and Xie, Weidi},
+          journal={arXiv preprint arXiv:2312.16151},
+          year={2023}
+        }
 
+```
