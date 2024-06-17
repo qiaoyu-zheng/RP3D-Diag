@@ -183,6 +183,6 @@ We sincerely thank all the contributors who uploaded the relevant data in our da
             Ya and Wang, Yanfeng and Xie, Weidi},
           journal={arXiv preprint arXiv:2312.16151},
           year={2023}
-        }
+}
 
 ```
