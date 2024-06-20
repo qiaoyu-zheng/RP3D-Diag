@@ -14,7 +14,7 @@ In this paper, we build up an academically accessible, large-scale diagnostic da
 
 
 
-The train/test split strategy and label csv files can be found in HuggingFace repository [RP3D-DiagDS](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS). (Under updating).
+<!-- The train/test split strategy and label csv files can be found in HuggingFace repository [RP3D-DiagDS](https://huggingface.co/datasets/QiaoyuZheng/RP3D-DiagDS). (Under updating). -->
 
 ## Model
 
