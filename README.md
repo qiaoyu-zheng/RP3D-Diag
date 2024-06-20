@@ -19,7 +19,7 @@ The train/test split strategy and label csv files can be found in HuggingFace re
 ## Model
 
 The overview of our model **RadDiag**. Three parts demonstrate our proposed visual encoders and fusion module, together
-with the knowledge enhancement strategy respectively. a, The three types of vision encoder, i.e., ResNet-based, ViT-based , and
+with the knowledge enhancement strategy respectively. a, The three types of vision encoder, i.e., ResNet-based, ViT-based, and
 ResNet-ViT-mixing. b, The architecture of the fusion module. The figure shows the transformer-based fusion module, enabling
 case-level information fusion. c, The knowledge enhancement strategy. We first pre-train a text encoder with extra medical
 knowledge with contrastive learning, leveraging synonyms, descriptions, and hierarchy. Then we view the text embedding as a
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 * Download files from HuggingFace.
 * Modify all the paths (files in DataPath, all the python files and bash files) to your own.
-* The DataPath folder shuold be like:
+* The DataPath folder should be like:
 
 ```
 src
@@ -76,7 +76,7 @@ To run this demo, please refer to [RP3D_Demo_Instruction.md](https://github.com/
 4. set checkpoint in ./eval.sh
 5. Run in terminal:  `bash eval.sh`
 
-**for more info, please refer to readme files in src/Eval/**
+**For more info, please refer to readme files in src/Eval/**
 
 ## Train
 
@@ -96,7 +96,7 @@ To run this demo, please refer to [RP3D_Demo_Instruction.md](https://github.com/
 4. set checkpoint in ./train.sh
 5. Run in terminal: `bash train.sh`
 
-**for more info, please refer to readme files in src/Train/**
+**For more info, please refer to readme files in src/Train/**
 
 ## Finetune
 
@@ -106,7 +106,7 @@ To run this demo, please refer to [RP3D_Demo_Instruction.md](https://github.com/
 4. set checkpoint in ./train.sh
 5. Run in terminal: `bash train.sh`
 
-**for more info, please refer to readme files in src/Finetune/**
+**For more info, please refer to readme files in src/Finetune/**
 
 ## Zeroshot
 
@@ -117,7 +117,7 @@ To run this demo, please refer to [RP3D_Demo_Instruction.md](https://github.com/
 5. run in terminal: `bash predict.sh`
 6. run in terminal: python eval.py
 
-**for more info, please refer to readme files in src/Zeroshot/**
+**For more info, please refer to readme files in src/Zeroshot/**
 
 
 ## Benchmark
@@ -133,14 +133,14 @@ To run this demo, please refer to [RP3D_Demo_Instruction.md](https://github.com/
 |  ICD-10-CM  | Medium | 92.01 | 10.34 | 19.08 | 22.16 | 28.81 | 55.55 | 69.86 |
 |  ICD-10-CM  |  Tail  | 88.11 | 5.57 | 10.48 | 14.68 |  12.75  | 30.11 | 51.77 |
 
-ROC curves on Disorders and ICD-10-CM, including head/medium/tail parts respectively. The shadow in the figure shown the 95\% CI~(Confidence interval) and FM, KE are short for Fusion Module and Knowledge Enhancement.
+ROC curves on Disorders and ICD-10-CM, including head/medium/tail parts respectively. The shadow in the figure shows the 95\% CI~(Confidence interval) and FM, KE are short for Fusion Module and Knowledge Enhancement.
 
 <img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/ROCs.png"/>
 
 ## Comparison
 
 The AUC Score Comparison on Various External Datasets. SOTA denotes the best performance of former works (pointed
-with corresponding reference) on the datasets. Scratch means use our model but train from scratch. Ours means use our checkpoint to fintune.
+with the corresponding reference) on the datasets. Scratch means using our model but training from scratch. Ours means to use our checkpoint to fintune.
 
 |   Dataset   | Scratch | Ours | SOTA |
 | :---------: | :-----: | :---: | :---: |
@@ -167,7 +167,7 @@ with corresponding reference) on the datasets. Scratch means use our model but t
 | KneeMRI | 73.05 | 73.22 | N/A |
 | CT-Kidney | 91.41 | 93.26 | N/A |
 
-In zero-shot assessment, we evaluate the transferring ability of our final model on normal/abnormal diagnosis for external dataset.
+In zero-shot assessment, we evaluate the transferring ability of our final model on normal/abnormal diagnosis for the external dataset.
 
 <img src="https://github.com/qiaoyu-zheng/RP3D-Diag/blob/main/Images/NormalVisulization_adjust.png"/>
 
