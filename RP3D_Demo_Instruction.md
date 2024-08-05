@@ -10,11 +10,11 @@ Here we provide **3** cases formatted as .npy files in .../RP3D_Demo/DataPath/De
 
 The data info file is .../RP3D_Demo/DataPath/demoData.json
 
-`Case 1`: This case contains one CT volumn and one MRI volumn. For more intuitionistic information, please refer to [Radiopaedia Case 1](https://radiopaedia.org//cases/perforated-saccular-abdominal-aortic-aneurysm-1?lang=us)
+`Case 1`: This case contains one CT volume and one MRI volume. For more intuitionistic information, please refer to [Radiopaedia Case 1](https://radiopaedia.org//cases/perforated-saccular-abdominal-aortic-aneurysm-1?lang=us)
 
-`Case 2`: This case contains one X-ray image and two CT volumns. For more intuitionistic information, please refer to [Radiopaedia Case 2](https://radiopaedia.org//cases/hip-dislocation-inferior-1?lang=us)
+`Case 2`: This case contains one X-ray image and two CT volume. For more intuitionistic information, please refer to [Radiopaedia Case 2](https://radiopaedia.org//cases/hip-dislocation-inferior-1?lang=us)
 
-`Case 3`: This case contains one X-rat image and two MRI volumns. For more intuitionistic information, please refer to [Radiopaedia Case3](https://radiopaedia.org//cases/segond-fracture-5?lang=us)
+`Case 3`: This case contains one X-ray image and two MRI volumes. For more intuitionistic information, please refer to [Radiopaedia Case3](https://radiopaedia.org//cases/segond-fracture-5?lang=us)
 
 
 
