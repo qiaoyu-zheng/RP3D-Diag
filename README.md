@@ -1,6 +1,6 @@
 # RP3D-Diag
 
-The official codes for paper "Large-scale Long-tailed Disease Diagnosis on Radiology Images"
+[Nature Communications](https://www.nature.com/articles/s41467-024-54424-6) The official codes implementation for paper "Large-scale Long-tailed Disease Diagnosis on Radiology Images"
 
 [ArXiv Version](https://arxiv.org/abs/2312.16151)
 
