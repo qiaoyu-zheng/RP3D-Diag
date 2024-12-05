@@ -177,12 +177,14 @@ We sincerely thank all the contributors who uploaded the relevant data in our da
 
 ## Citation
 ```
-@article{zheng2023large,
-          title={Large-scale Long-tailed Disease Diagnosis on Radiology Images},
-          author={Zheng, Qiaoyu and Zhao, Weike and Wu, Chaoyi and Zhang, Xiaoman and Zhang, 
-            Ya and Wang, Yanfeng and Xie, Weidi},
-          journal={arXiv preprint arXiv:2312.16151},
-          year={2023}
+@article{zheng2024large,
+  title={Large-scale long-tailed disease diagnosis on radiology images},
+  author={Zheng, Qiaoyu and Zhao, Weike and Wu, Chaoyi and Zhang, Xiaoman and Dai, Lisong and Guan, Hengyu and Li, Yuehua and Zhang, Ya and Wang, Yanfeng and Xie, Weidi},
+  journal={Nature Communications},
+  volume={15},
+  number={1},
+  pages={10147},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
 }
-
 ```
