@@ -6,6 +6,10 @@
 
 In this paper, we build up an academically accessible, large-scale diagnostic dataset, present a knowledge enhanced model architecture that enables to process arbitrary number of input scans from various imaging modalities, and initialize a new benchmark for multi-modal multi-anatomy long-tailed diagnosis. Our method shows superior results on it. Additionally, our final model serves as a pre-trained model, and can be finetuned to benefit diagnosis on various external datasets.
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=qiaoyu-zheng/RP3D-Diag&type=Date)](https://www.star-history.com/#qiaoyu-zheng/RP3D-Diag&Date)
+
 ## Dataset
 
 **Overview of RP3D-DiagDS.** There are **40,936 cases (195,010 scans)** across 7 human anatomy regions and 9 diverse modalities covering **5569 disorders** mapped into **931 ICD-10-CM codes**.
